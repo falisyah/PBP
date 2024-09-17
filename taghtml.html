@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Berbagai Tag HTML</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        h1,h2{
+            color: #333;
+        }
+        p{
+            color: #666;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th,td{
+            border:1px solid#ddd;
+        }
+        th{
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            text-align: left;
+        }
+        td{
+            padding: 8px;
+        }
+        form{
+            margin-top: 20px;
+        }
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border:1px solid#ccc;
+            border-radius: 4px;
+        }
+        button{
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
+        blockquote{
+            border-left: 5px solid#007bff;
+            padding-left: 10px;
+            color: #555;
+            font-style: italic;
+        }
+        a{
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        dl{
+            margin-top: 20px;
+        }
+        dt{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Contoh Berbagai Tag HTML</h1>
+    <h2>Heading Level 2</h2>
+    <p>Ini adalah contoh teks biasa dalam paragraf</p>
+    <h3>List</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <h3>Table</h3>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>30</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+
+    <h3>Form</h3>
+    <form action="#">
+        <label for="nama">Nama:</label>
+        <input type="nama"id="nama" name="nama">
+
+        <label for="email">Email:</label>
+        <input type="email"id="email" name="email">
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+    
+        <button type="submit">Kirim</button>
+    </form>
+
+    <h3>Blockquote</h3>
+    <blockquote>
+        "Ini adalah contoh blockquote. Digunakan untuk menampilkan kutipan"
+    </blockquote>
+
+    <h3>Image</h3>
+    <img src="pictures/0.jpg"alt="Placeholder image">
+
+    <h3>link</h3>
+    <p>Kunjungi<a href="https://example.com">Example.com</a>untuk informasi lebih lanjut.</p>
+
+    <h3>definition List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup languague, bahasa standar untuk membuat halaman web.</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets, bahasa untuk mendesain dan menghias tampilan halaman web.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Bahasa pemrograman yang digunakan untuk membuat halaman web lebih interaktif.</dd>
+    </dl>
+</body>
+</html>
